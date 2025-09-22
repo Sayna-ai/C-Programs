@@ -5,7 +5,7 @@ int main()
   printf("Enter three values\n");
   scanf("%d %d %d\n",&n1,&n2,&n3);
   printf("%d %d %d\n",n1,n2,n3);
-  if(n1>n2 && n1>n2)
+  if(n1>n2 && n1>n3)
   {
     printf("Greatest num of three:%d",n1);
   }
@@ -19,3 +19,4 @@ int main()
   }
   return 0;
 }
+
